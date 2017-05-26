@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neelam.venkatesh.myfirstapp.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red"
+        android:gravity="center"
+        android:maxHeight="20dp"
+        android:layout_weight="0.145"
+        android:background="#fb1818"
+        android:textColor="#fdfdfd" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orange"
+        android:gravity="center"
+        android:layout_weight="0.145"
+        android:background="#fcf88016"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yellow"
+        android:gravity="center"
+        android:layout_weight="0.145"
+        android:background="#fbf9d404" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/green"
+        android:gravity="center"
+        android:background="#05df0c"
+        android:textSize="15sp"
+        android:layout_weight="0.145"
+        />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue"
+        android:gravity="center"
+        android:layout_weight="0.145"
+        android:background="#0328fb"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indigo"
+        android:gravity="center"
+        android:layout_weight="0.145"
+        android:background="#41029f"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/violet"
+        android:gravity="center"
+        android:layout_weight="0.145"
+        android:background="#d482ed" />
+</LinearLayout>
+
+
